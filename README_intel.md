@@ -3,7 +3,7 @@ Unicorn Engine port for UEFI firmware
 
 This fork of the [Unicorn Engine](https://github.com/unicorn-engine/unicorn) brings support
 for building Unicorn-based applications and drivers in the UEFI firmware environment.
-This was developed as part of [MultiArchUefiPkg](https://github.com/intel/MultiArchUefiPkg).
+This was developed as part of [MultiArchUefiPkg](https://github.com/andreiw/MultiArchUefiPkg).
 
 > [!NOTE]
 > Relation to https://github.com/intel/unicorn-for-efi - this is a direct continuation
@@ -33,7 +33,7 @@ You get UnicornSampleX86, UnicornSampleArm64 and UnicornSampleRV.
 The latter shows how it's possible to link against multiple target
 emulation libraries.
 
-[MultiArchUefiPkg](https://github.com/intel/MultiArchUefiPkg) itself is a great example of how to use Unicorn with UEFI.
+[MultiArchUefiPkg](https://github.com/andreiw/MultiArchUefiPkg) itself is a great example of how to use Unicorn with UEFI.
 
 # Tested Compilers
 
