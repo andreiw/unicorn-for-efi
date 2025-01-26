@@ -1,11 +1,14 @@
 Unicorn Engine port for UEFI firmware
 =====================================
 
-Last updated: March 4th, 2024.
-
 This fork of the [Unicorn Engine](https://github.com/unicorn-engine/unicorn) brings support
 for building Unicorn-based applications and drivers in the UEFI firmware environment.
 This was developed as part of [MultiArchUefiPkg](https://github.com/intel/MultiArchUefiPkg).
+
+> [!NOTE]
+> Relation to https://github.com/intel/unicorn-for-efi - this is a direct continuation
+> of the work I've done at Intel before I left. Most likely, the Intel repo is dead,
+> as I was the owner and the only remaining contributor to the project.
 
 This repo is intended to be temporary, as part of upstreaming activities. Our intention
 is to merge the UEFI support and assorted fixes into the main project repository.
