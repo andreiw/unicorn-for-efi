@@ -57,7 +57,9 @@ typedef __UINTMAX_TYPE__ uintmax_t;
 typedef __UINTPTR_TYPE__ uintptr_t;
 
 typedef __PTRDIFF_TYPE__ ptrdiff_t;
+#if !defined(__STDC_VERSION__) || (__STDC_VERSION__ < 202311L)
 typedef BOOLEAN bool;
+#endif
 typedef VA_LIST va_list;
 
 typedef __INT_FAST8_TYPE__ int_fast8_t;
